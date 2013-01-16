@@ -28,6 +28,7 @@ We found a great concept for this answer at Ajax Fancy Captcha - jQuery Plugin, 
 
 == Installation ==
 Wordpress installation
+
 1. download visualCaptcha
 2. Go to 'Plugins' in the Admin Wordpress section.
 3. Click on 'Add New'.
@@ -35,6 +36,7 @@ Wordpress installation
 5. Activate the plugin through the 'Plugins' menu in WordPress.
 
 Manual Installation
+
 1. Upload `captcha` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
