@@ -1,5 +1,5 @@
 === visualCaptcha ===
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors: BrunoBernardino
 Donate link: http://emotionloop.com/donate?app=visualCaptcha
 Tags: captcha, visualcaptcha, visual captcha, wordpress captcha, easy captcha, safe captcha, spam filter, spam protection, comments, lost password, user login, register
 Requires at least: 3.4.1
