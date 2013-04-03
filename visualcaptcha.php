@@ -206,18 +206,22 @@ function visualcaptcha_admin_settings_page () {
 			$posted_hooks = $_POST['visualcaptcha_form_hooks'];
 			
 			foreach ( $visualcaptcha_current_hooks as $hook => &$data ) {
+				//ignore filters changes
+				if ( empty( $data['action'] ) ) {
+					continue;
+				}
 				$data[ 'checked' ] =  ( in_array( $hook, $posted_hooks ) ) ? true : false;
 				$data[ 'vertical_opt' ] =  ( isset( $_POST[ $hook.'_orientation' ] ) && !empty( $_POST[ $hook.'_orientation'] ) )? true : false ;
 			}
 			
 			//update 
-			update_option( 'visualcaptcha_form_audio_option' , $_POST['visualcaptcha_form_audio_option'] );
+			update_option( 'visualcaptcha_form_hooks' , $visualcaptcha_current_hooks );
 			$updated_vars = true;
 		}
 		
 		//update the audioOption
 		if ( isset($_POST['visualcaptcha_form_audio_option'] ) ) {
-			update_option( 'visualcaptcha_form_hooks' , $visualcaptcha_current_hooks );
+			update_option( 'visualcaptcha_form_audio_option' , $_POST['visualcaptcha_form_audio_option'] );
 			$updated_vars = true;
 		}
 	}
