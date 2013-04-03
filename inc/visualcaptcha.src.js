@@ -8,7 +8,7 @@
  * @author emotionLoop | http://emotionloop.com
  * @link http://visualcaptcha.net
  * @package visualCaptcha
- * @license GNU GPL v3
+ * @license GNU GPL v3 | http://www.gnu.org/licenses/gpl.html
  * @version 4.0.3
  */
 (function($) {

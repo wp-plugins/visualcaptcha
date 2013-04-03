@@ -8,7 +8,7 @@
  * @author emotionLoop | http://emotionloop.com
  * @link http://visualcaptcha.net
  * @package visualCaptcha
- * @license GNU GPL v3
+ * @license GNU GPL v3 | http://www.gnu.org/licenses/gpl.html
  * @version 4.0.3
  */
 div.eL-captcha.type-1 {
@@ -16,6 +16,9 @@ div.eL-captcha.type-1 {
 	padding: 0;
 	display: block;
 	width: 200px;
+}
+#login div.eL-captcha.type-1 {
+	 margin: 10px auto; 
 }
 div.eL-captcha > div.eL-possibilities.type-1 {
 	margin: 0;
