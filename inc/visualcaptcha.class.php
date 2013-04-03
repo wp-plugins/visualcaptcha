@@ -1,6 +1,6 @@
 <?php
 /**
- * visualCaptchaHTML class by emotionLoop - 2012.11.04
+ * visualCaptchaHTML class by emotionLoop - 2013.03.28
  *
  * This class handles a visual image captcha system.
  *
@@ -10,7 +10,7 @@
  * @link http://visualcaptcha.net
  * @package visualCaptcha Wordpress
  * @license GNU GPL v3 | http://www.gnu.org/licenses/gpl.html
- * @version 4.0.1
+ * @version 4.0.3
  */
 namespace visualCaptcha;
 
@@ -165,7 +165,7 @@ class visualcaptcha {
 			return true;
 		}
 		// Accessibility option
-		if ( isset($_POST[$this->accessibilityFieldName]) && isset($_SESSION[$this->hash.'::accessibility']) && ($this->encrypt($_POST[$this->accessibilityFieldName]) == $_SESSION[$this->hash.'::accessibility']) ) {
+		if ( isset($_POST[$this->accessibilityFieldName]) && isset($_SESSION[$this->hash.'::accessibility']) && ($this->encrypt( mb_strtolower($_POST[$this->accessibilityFieldName]) ) == $_SESSION[$this->hash.'::accessibility']) ) {
 			return true;
 		}
 		return false;

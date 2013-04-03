@@ -1,6 +1,6 @@
 <?php
 /**
- * visualCaptchaHTML class by emotionLoop - 2012.11.04
+ * visualCaptchaHTML class by emotionLoop - 2013.03.28
  *
  * This class handles the HTML for the main visualCaptcha class.
  *
@@ -10,7 +10,7 @@
  * @link http://visualcaptcha.net
  * @package visualCaptcha Wordpress
  * @license GNU GPL v3 | http://www.gnu.org/licenses/gpl.html
- * @version 4.0.1 
+ * @version 4.0.3 
  */
 namespace visualCaptcha;
 
@@ -77,7 +77,7 @@ div.eL-captcha > div.eL-where2go {
 	background: transparent url('<?php echo WP_CONTENT_URL ?>/plugins/visualcaptcha/images/visualcaptcha/dropzone.png') center center no-repeat !important;
 }
 </style>
-<script src="<?php echo $jsFile; ?>" defer="defer"></script>
+<script src="<?php echo $jsFile; ?>" ></script>
 <?php
 		$html = ob_get_clean();
 		return $html;

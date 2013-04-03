@@ -1,5 +1,5 @@
 /**
- * visualCaptchaHTML class by emotionLoop - 2012.11.04
+ * visualCaptchaHTML class by emotionLoop - 2013.03.28
  *
  * This file handles the JS for the main visualCaptcha class.
  *
@@ -7,9 +7,9 @@
  *
  * @author emotionLoop | http://emotionloop.com
  * @link http://visualcaptcha.net
- * @package visualCaptcha Wordpress
- * @license GNU GPL v3 | http://www.gnu.org/licenses/gpl.html
- * @version 4.0.1  
+ * @package visualCaptcha
+ * @license GNU GPL v3
+ * @version 4.0.3
  */
 (function($) {
 	var isMobile = false;
