@@ -1,5 +1,5 @@
 === visualCaptcha ===
-Contributors: BrunoBernardino,  jmigcosta
+Contributors: BrunoBernardino, jmigcosta
 Donate link: http://emotionloop.com/donate?app=visualCaptcha
 Tags: captcha, visualcaptcha, visual captcha, wordpress captcha, easy captcha, safe captcha, spam filter, spam protection, comments, lost password, user login, register
 Requires at least: 3.4.1
@@ -24,7 +24,6 @@ We found a great concept for this answer at Ajax Fancy Captcha - jQuery Plugin, 
 
 <a href="http://demo.visualcaptcha.net/" target="_blank">visualCaptcha Demo</a>
 <a href="http://visualcaptcha.net/" target="_blank">Visit plugin site</a>
-<a href="http://www.binpress.com/cart/add/id/551?ad=1615" target="_blank">Support</a>
 
 == Installation ==
 Wordpress installation
@@ -60,7 +59,7 @@ So, we thought: "wouldn't it be great to find a way to make a Captcha work bette
 We found a great concept for this answer at Ajax Fancy Captcha - jQuery Plugin, but also found in it a few bugs and easy ways for bots to "learn" how to bypass it. As there was nothing really good and innovative as we wanted it, we built our own!
 
 = Accessible? What do you mean? =
-We are concerned about people with accessibility issues. Bu we also thrive for security.
+We are concerned about people with accessibility issues. But we also thrive for security.
 
 We are not aware of any other "visual" captchas that have any sort of accessibility, and the "normal" captchas that do, end up compromising security or making it very difficult to understand what is spoken by the scripts (revolving back to the original Captcha problems).
 
@@ -68,6 +67,3 @@ Being innovators as we are, we wanted to implement an accessibility feature that
 
 = Need Support? =
 If you need help, you can reach emotionLoop on <a href="https://twitter.com/emotionLoop" target="_blank">Twitter</a> or by email at hello@emotionloop.com.
-You can also <a href="http://www.binpress.com/cart/add/id/551?ad=1615" target="_blank">buy support </a>
-
-
