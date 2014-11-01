@@ -1,5 +1,7 @@
 # visualCaptcha for WordPress
 
+[![Code Climate](https://codeclimate.com/github/emotionLoop/visualCaptcha-WordPress/badges/gpa.svg)](https://codeclimate.com/github/emotionLoop/visualCaptcha-WordPress)
+
 The visualCaptcha WordPress plugin is at http://wordpress.org/plugins/visualcaptcha/
 
 This repo is copied to the WordPress subversion one, we just prefer git to actually manage the code.
@@ -8,7 +10,7 @@ Composer and its packages are versioned because that makes it easier to just cop
 
 ## Current Version
 
-Current version is 5.0.3.
+Current version is 5.0.4.
 
 ## Demo
 
